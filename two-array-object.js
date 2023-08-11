@@ -12,8 +12,8 @@
 
 
 /** function accepts two arrays, one with keys and one with values. Returns
- * object with keys and values. If array value is undefined, resulting key is
- * set to null.
+ * object with said keys and values. If array value is undefined, resulting key
+ * is set to null.
  * @param {Array} arrayOfKeys array with values for keys
  * @param {Array} arrayOfValues array with values for values
  * @Returns object
