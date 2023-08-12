@@ -16,9 +16,12 @@ function separatePositive(nums) {
     const currentNum = nums.pop();
     if (currentNum < 0) {
       negArray.push(currentNum);
+    } else {
+      posiArray.push(currentNum);
     }
   }
 
+  posiArray.forEach(num => nums.push(num));
   negArray.forEach(num => nums.push(num));
 
   return nums;
